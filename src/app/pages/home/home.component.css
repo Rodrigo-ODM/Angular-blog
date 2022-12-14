@@ -1,0 +1,10 @@
+.container_articles {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0%;
+}
+
+/* .articles_main {
+    box-sizing: border-box;
+    width: 100%;
+} */
