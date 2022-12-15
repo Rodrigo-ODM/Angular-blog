@@ -1,25 +1,25 @@
 .container_small-card {
-    box-sizing: content-box;
-    border: solid white 0.18rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    padding: 1rem 1rem;
-    width: 25rem;
-    height: 10rem;
+    width: 100%;
+    margin-bottom: 5%;
 
+}
+
+.container_small-card_content {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
 }
 
+.small-card__photo {
+  width: 50%;
+}
+
 .small-card__photo > img {
-    position: relative;
-    top: 2.5rem;
-    left: 0.1rem;
-    height: 5rem;
-    margin-right: 0.5rem;
+
+    width: 100%;
 
 
 }
@@ -29,12 +29,20 @@
     margin-top: 1%;
     font-size: 0.8rem;
     font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .small-card__description > p {
+    width: 100%;
     padding-left: 0.5rem;
     margin-top: 1%;
     font-size: 1rem;
     color: gray;
+}
+
+.container_small-card_separator hr {
+  width: 100%;
 }
