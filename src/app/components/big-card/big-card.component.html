@@ -1,18 +1,18 @@
 <div class="container_big-card">
     <div class="big-card__photo">
         <img
-        src="https://images.alphacoders.com/120/1202299.jpg"
+        src={{photoCover}}
         alt="Shogun Raiden"
         >
     </div>
     <div class="big-card__title">
         <h1>
-            <a href="https://wall.alphacoders.com/big.php?i=1202299&lang=Portuguese" target="_blank">
-                Uma mãe em evolução!
+            <a [routerLink]="['content']">
+                {{cardTitle}}
             </a>
         </h1>
     </div>
     <div class="big-card__description">
-        <p>Ei e sua nova filosofia de vida eterna: "Um nome, um recomeço."</p>
+        <p>{{cardDescription}}</p>
     </div>
 </div>
