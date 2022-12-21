@@ -7,4 +7,5 @@
 .container_menu-bar > ul > li {
   margin-right: 2%;
   list-style: none;
+  text-align: center;
 }

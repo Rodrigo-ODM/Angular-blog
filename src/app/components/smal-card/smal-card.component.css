@@ -1,37 +1,34 @@
 .container_small-card {
-    width: 100%;
-    margin-bottom: 5%;
+  width: 100%;
+  margin-bottom: 5%;
 
 }
 
 .container_small-card_content {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .small-card__photo {
-    width:50%;
+  width:50%;
 }
 
 .small-card__photo > img {
-
-    width: 100%;
-
-
+  width: 10rem;
 }
 
 .small-card__title > h1 {
-    padding-left: 0.5rem;
-    margin-top: 1%;
-    font-size: 0.8rem;
-    font-weight: bolder;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  padding-left: 0.5rem;
+  margin-top: 1%;
+  font-size: 100%;
+  font-weight: bolder;
+  display: flex;
+  justify-content: right;
+  align-items: center;
 
 }
 
