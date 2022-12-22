@@ -2,10 +2,14 @@
 .container_menu-bar > ul {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .container_menu-bar > ul > li {
-  margin-right: 2%;
   list-style: none;
   text-align: center;
+  font-size: 2vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
 }

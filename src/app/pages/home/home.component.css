@@ -1,8 +1,12 @@
 
 .container_articles {
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-right: 0%;
+}
+
+.articles_others {
+  width: 50vw;
 }
